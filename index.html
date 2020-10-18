@@ -52,6 +52,7 @@ text-align: right;
 color: #2E2E2E;
 }
 .main {
+  position: absolute;
   display: flex;
   width: 1280px;
   overflow: hidden;
@@ -63,55 +64,55 @@ color: #2E2E2E;
   margin-top: 53px;
 }
 .opa {
-  margin-top: 101px;
+  position: absolute;
+  margin-top: 853px;
 }
 .opa img {
-  position: absolute;
   width: 871px;
   height: 192px;
   margin-left: 231px;
   margin-top: 90px;
+  margin-bottom: 90px;
   border: 1px solid #2F2F2F;
-  box-sizing: border-box;
 }
-.opa img + h4 {
-    margin-bottom: 20px;
-}
-h2 {
-position: absolute;
-width: 400px;
-height: 110px;
-left: 141px;
-top: 357px;
+.opa p {
 font-family: Anonymous Pro;
-font-style: normal;
+font-style: italic;
 font-weight: normal;
 font-size: 36px;
-line-height: 36px;
-color: #D9FFD2;
-}
-h3 {
-  margin-left: 111px;
-  margin-bottom: 37px;
-  font-family: Anonymous Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 105.5%;
-  color: #D9FFD2;
-}
-h4 {
-width: 1144px;
-height: 109px;
-margin-left: 141px;
-font-family: Anonymous Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 38px;
-color: #62FF48;
+line-height: 105.5%;
+color: #575757;
 }
 
+.a {
+  position: absolute;
+  width: 1168px;
+height: 685px;
+margin-left: 111px;
+margin-top: 161px;
+border-left: 1px solid #2F2F2F;
+}
+.b {
+position: absolute;
+width: 1168px;
+height: 133px;
+margin-left: 28px;
+border-left: 1px solid #2F2F2F;
+}
+.c {
+position: absolute;
+width: 1168px;
+height: 430px;
+margin-top: 254px;
+border-left: 1px solid #2F2F2F;
+}
+.d {
+  position: absolute;
+  width: 1168px;
+  height: 430px;
+  margin-left: 28px;
+  border-left: 1px solid #2F2F2F;
+}
 </style>
   </head>
 
@@ -159,6 +160,16 @@ color: #62FF48;
       <p>28</p>
       <p>29</p>
       <p>30</p>
+      <p>31</p>
+      <p>32</p>
+      <p>33</p>
+      <p>34</p>
+      <p>35</p>
+      <p>36</p>
+      <p>37</p>
+      <p>38</p>
+      <p>39</p>
+      <p>40</p>
     </div>
 
 <div class="main">
@@ -167,12 +178,24 @@ color: #62FF48;
   <img src="images/lovelace.jpg" alt="">
 </div>
 
+<div class="a">
+<div class="b">
+  <div class="b">
+  </div>
+<div class="c">
+  <div class="d">
+  </div>
+</div>
+</div>
+</div>
+
 <section>
   <div class="opa">
     <h3>Вы знакомы с Байроном?</h3>
     <h4>Ада родилась 10 декабря 1815 года. <br>Она была единственным законорожденным ребенком <br>известного английского поэта Джорджа Гордона Байрона.</h4>
-<img src="images/date.png" alt="">
-<h4>Правда через месяц после рождения отец увидел дочь в первый и последний раз. </h4>
+    <img src="images/date.png" alt="">
+    <h4>Правда через месяц после рождения отец увидел дочь <br> в первый и последний раз.</h4>
+<p><!-- <h1> father.element </h1> --></p>
   </div>
 </section>
 
