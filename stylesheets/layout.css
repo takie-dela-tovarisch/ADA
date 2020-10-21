@@ -6,7 +6,7 @@ height: 7600px;
 position: relative;
 }
 html {
-background: white;
+background: grey;
 position: relative;
 height: 100%;
 }
@@ -68,7 +68,6 @@ text-align: right;
 color: #2E2E2E;
 }
 .menubar {
-z-index: 10000;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -100,13 +99,14 @@ margin-bottom: 520px;
 margin-top: 115px;
 }
 .charles img {
-z-index: 900;
+z-index: 5;
 position: absolute;
 width: 648px;
 height: 409px;
 left: 582px;
 top: 5458px;
 border: 1px solid #2F2F2F;
+transition: all .6s ease;
 }
 .calc img {
 z-index: 2;
@@ -116,6 +116,7 @@ height: 409px;
 left: 55px;
 top: 5214px;
 border: 1px solid #2F2F2F;
+transition: all .6s ease;
 }
 .imagess {
 margin-bottom: 854px;
@@ -130,6 +131,11 @@ height: 199px;
 left: 231px;
 top: 6505px;
 border: 1px solid #2F2F2F;
+transition: all .6s ease;
+}
+.final img:hover {
+  transform: scale(1.03);
+transition: all .2s ease;
 }
 .final {
 margin-bottom: 409px;
@@ -179,23 +185,32 @@ display: flex;
 width: 1280px;
 overflow: hidden;
 }
-.main img {
+.anim img {
 width: 1048px;
 height: 698px;
 margin-left: 617px;
 margin-top: 53px;
+transition: all .6s ease;
 }
 .opa {
 position: absolute;
 margin-top: 853px;
 }
-.opa img {
+.uk img {
 width: 871px;
 height: 192px;
 margin-left: 231px;
 margin-top: 90px;
 margin-bottom: 85px;
 border: 1px solid #2F2F2F;
+transition: all .6s ease;
+}
+.uk:hover img {
+  transform: scale(1.02);
+  transition: all .2s ease;
+}
+.uk {
+width: 1280px;
 }
 .opa p {
 font-style: italic;
@@ -213,13 +228,17 @@ width: 1280px;
 height: 1890px;
 overflow: hidden;
 }
-.ipa img {
+.norm img {
 width: 1152px;
 height: 486px;
 margin-left: 158px;
 margin-top: 106px;
 border: 1px solid #2F2F2F;
-
+transition: all .6s ease;
+}
+.norm:hover img {
+  transform: scale(1.02);
+  transition: all .2s ease;
 }
 .queen {
 margin-bottom: 408px;
@@ -255,8 +274,20 @@ line-height: 72px;
 color: #D8FFD2;
 }
 .love {
-  margin-bottom: 334px;
+margin-bottom: 334px;
 }
 .apa {
-  margin-top: 3776px;
+margin-top: 3776px;
+}
+.anim img:hover {
+transform: scale(1.02);
+transition: all .2s ease;
+}
+.charles img:hover {
+  transform: scale(1.02);
+  transition: all .2s ease;
+}
+.calc img:hover {
+  transform: scale(1.02);
+  transition: all .2s ease;
 }
