@@ -1,6 +1,6 @@
 .a {
   position: absolute;
-  width: 1168px;
+  width: 50px;
   height: 685px;
   margin-left: 111px;
   margin-top: 161px;
@@ -8,21 +8,21 @@
 }
 .b {
   position: absolute;
-  width: 1168px;
+  width: 50px;
   height: 133px;
   margin-left: 28px;
   border-left: 1px solid #2F2F2F;
 }
 .c {
   position: absolute;
-  width: 1168px;
+  width: 50px;
   height: 430px;
   margin-top: 254px;
   border-left: 1px solid #2F2F2F;
 }
 .d {
   position: absolute;
-  width: 1168px;
+  width: 50px;
   height: 430px;
   margin-left: 28px;
   border-left: 1px solid #2F2F2F;
@@ -31,14 +31,14 @@
   position: absolute;
   margin-left: 111px;
   margin-top: 44px;
-  width: 1168px;
+  width: 20px;
   height: 984px;
   border-left: 1px solid #2F2F2F;
 }
 .f {
   position: absolute;
   margin-left: 28px;
-  width: 1168px;
+  width: 20px;
   height: 22px;
   border-left: 1px solid #2F2F2F;
 }
@@ -46,14 +46,14 @@
   position: absolute;
   margin-left: 28px;
   margin-top: 150px;
-  width: 1168px;
+  width: 20px;
   height: 353px;
   border-left: 1px solid #2F2F2F;
 }
 .h {
   position: absolute;
   margin-left: 28px;
-  width: 1168px;
+  width: 20px;
   height: 353px;
   border-left: 1px solid #2F2F2F;
 }
@@ -61,14 +61,14 @@
   position: absolute;
   margin-left: 28px;
   margin-top: 594px;
-  width: 1168px;
+  width: 20px;
   height: 208px;
   border-left: 1px solid #2F2F2F;
 }
 .j {
   position: absolute;
   margin-left: 28px;
-  width: 1168px;
+  width: 20px;
   height: 97px;
   border-left: 1px solid #2F2F2F;
 }
@@ -97,7 +97,7 @@
 }
 .n {
   position: absolute;
-  width: 1168px;
+  width: 20px;
   height: 1829px;
   margin-left: 111px;
   margin-top: 46px;
@@ -105,7 +105,7 @@
 }
 .o {
   position: absolute;
-  width: 1168px;
+  width: 20px;
   height: 319px;
   margin-left: 28px;
   margin-top: 219px;
@@ -113,14 +113,14 @@
 }
 .p {
   position: absolute;
-  width: 1000px;
+  width: 20px;
   height: 97px;
   margin-left: 28px;
   border-left: 1px solid #2F2F2F;
 }
 .q {
   position: absolute;
-  width: 1000px;
+  width: 20px;
   height: 97px;
   margin-left: 28px;
   margin-top: 220px;
@@ -128,21 +128,21 @@
 }
 .r {
   position: absolute;
-  width: 282px;
+  width: 20px;
   height: 282px;
   margin-top: 478px;
   border-left: 1px solid #2F2F2F;
 }
 .s {
   position: absolute;
-  width: 282px;
+  width: 20px;
   height: 282px;
   margin-left: 28px;
   border-left: 1px solid #2F2F2F;
 }
 .t {
   position: absolute;
-  width: 763px;
+  width: 20px;
   height: 761px;
   margin-left: 28px;
   margin-top: 1069px;
